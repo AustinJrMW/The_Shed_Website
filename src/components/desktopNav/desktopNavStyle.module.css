@@ -1,0 +1,43 @@
+.navContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #000000;
+  z-index: 999;
+  transition: transform 0.3s ease;
+}
+
+.scrolled {
+  transform: translateY(-100%);
+}
+
+.navWrapper {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLeft,
+.navRight {
+  display: flex;
+  align-items: center;
+}
+
+.navLogo {
+  font-weight: bold;
+}
+
+.navLeft > a,
+.navRight > a {
+  margin: 0 8px;
+  text-decoration: none;
+}

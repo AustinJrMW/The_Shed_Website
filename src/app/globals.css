@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 21, 21, 21;
+  --background-end-rgb: 0, 0, 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+/* Non relevant styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #ffffff;
+  background: #000000;
+  overflow-x: hidden;
+}
+
+
+.menulink1:hover ~ .image1,
+.menulink2:hover ~ .image2,
+.menulink3:hover ~ .image3,
+.menulink4:hover ~ .image4,
+.menulink5:hover ~ .image5,
+.menulink6:hover ~ .image6
+{
+  opacity: 1;
+  transform: translateY(0%);
+  transition: 1s ease-in-out;
+}
+
+.image1{
+  top: 10px !important;
+}
+.image2{
+  top: 50px !important;
+}
+.image3{
+  top: 150px !important;
+}
+.image4{
+  top: 200px !important;
+}
+.image5{
+  top: 300px !important;
+}
+.image6{
+  top: 350px !important;
+}
+
+/* PRIMARY BUTTON STYLYING */
+
+.primary_button{
+  font-size: 16px;
+  font-weight: 200;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.primary_button:hover {
+  border: 1px solid #E0956D;
+}
+
+.primary_button:after {
+  content: "";
+  background-color: #E0956D;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.primary_button:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .primary_button {
+    padding: 13px 50px 13px;
+  }
+} 
+
+
+.room-tab.active {
+  background-color: #E0956D;
+}
+
+.room-tab.inactive {
+  background-color: #2a2a2a;
+}
+
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.blur-button{
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 8px 16px;
+  border-radius: 4px;
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.3);
+}

@@ -1,0 +1,61 @@
+.container {
+  padding: 100px 30px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+/* Relevant styles */
+
+.imageStack::after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+
+.imageStackItemTop {
+  position: relative;
+  z-index: 1; /* tells the browser to make this image on top */
+}
+
+.imageStackItemBottom {
+  position: relative;
+}
+
+.imageStackItemTop img,
+.imageStackItemBottom img {
+  width: 100%;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .imageStackItemTop {
+    float: left;
+    width: 66%;
+    margin-right: -100%; /* Add an offset for the top image */
+  }
+
+  .imageStackItemBottom {
+    float: right;
+    width: 75%;
+  }
+}
+
+@media (min-width: 992px) {
+  .imageStackItemTop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-right: 0; /* Remove the offset for the top image */
+  }
+
+  .imageStackItemBottom {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+  }
+}
+
+
