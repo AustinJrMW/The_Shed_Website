@@ -22,7 +22,7 @@ const CoveSection = ({ titleFont }) => {
         <div className='my-16 md:flex justify-center items-center'>
             <div className='md:w-2/5 w-full h-full md:flex items-center md:pr-4'>
                 <div>
-                    <h2 className={`${titleFont.className} text-4xl`}>The Cove</h2>
+                    <h2 className={`${titleFont.className} text-4xl`}>Restaurant</h2>
                     <p className='my-4 mb-8'>Embark on a journey of discovery and create lifelong memories at The Shed Boutique Hotel. From exploring nearby attractions to indulging in locally sourced cuisine, our hotel serves as the perfect starting point for an unforgettable adventure in the surrounding area.</p>
                     <Link href={'/'} className='primary_button'>Learn More</Link>
                 </div>
