@@ -17,7 +17,7 @@ const leftLinks = [
   },
   {
     id: 3,
-    title: 'Eat + Drink',
+    title: 'Restaurant',
     url: '/eat+drink',
   },
 ];
