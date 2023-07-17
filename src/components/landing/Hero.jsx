@@ -1,4 +1,4 @@
-6555553;'use client'
+6555553'use client'
 
 import React, { useEffect } from 'react';
 import Link from 'next/link';
