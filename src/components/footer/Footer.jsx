@@ -24,14 +24,14 @@ const Footer = ({ titleFont }) => {
           <span className='font-bold'>Contact</span>
           <ul>
             <li>+27 123 456 7890</li>
-            <li>+27 123 456 7890</li>
+            <li>+265 991 197 920</li>
           </ul>
         </div>
         <div className='space-y-4'>
           <span className='font-bold'>Visit Us</span>
           <ul>
-            <li>P.O.Box 892, Ntcheu, Malawi</li>
-            <li>2.3KM from Bunda Turnoff</li>
+            <li>P.O.Box 3179, Lilongwe, Malawi</li>
+            <li>14KM from Gateway Mall</li>
           </ul>
         </div>
         <div className='space-y-4'>
