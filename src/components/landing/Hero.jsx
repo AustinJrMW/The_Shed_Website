@@ -31,7 +31,7 @@ const heroLinks = [
     id: 1,
     title: "Book a Room",
     icon: <IoBedOutline size={20} />,
-    url: "/"
+    url: "https://b12f7607df90c4e1.sirvoy.me/?rooms=%7B%2213124727%22%3A%5B%5B%5D%5D%7D"
   },
   {
     id: 2,
@@ -85,7 +85,7 @@ const Hero = ({ titleFont }) => {
               <div>
                 <div>{link.icon}</div>
               </div>
-              <Link className="text-[#E0956D]" href={link.url}>
+              <Link className="text-[#020224]" href={link.url}>
                 {link.title}
               </Link>
             </motion.div>
