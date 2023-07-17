@@ -85,7 +85,7 @@ const Hero = ({ titleFont }) => {
               <div>
                 <div>{link.icon}</div>
               </div>
-              <Link className="text-[#020224]" href={link.url}>
+              <Link className="text-[#000000]" href={link.url}>
                 {link.title}
               </Link>
             </motion.div>
