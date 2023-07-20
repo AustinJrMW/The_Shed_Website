@@ -3,7 +3,6 @@ import { DM_Sans } from 'next/font/google';
 import Navbar from '@/components/navbar/Navbar'
 import Footer from '@/components/footer/Footer'
 import { Cinzel } from 'next/font/google';
-import { Analytics } from '@vercel/analytics/react';
 
 // const inter = Inter({ subsets: ['latin'] })
 export const dmSans = DM_Sans(
@@ -37,7 +36,6 @@ export default function RootLayout({ children }) {
       <body className={`${dmSans.className} container mx-auto px-8 md:px-24`}>
         <Navbar />
         {children}
-        <Analytics />
         <Footer titleFont={title} />
       </body>
     </html>
