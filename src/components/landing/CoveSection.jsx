@@ -22,7 +22,7 @@ const CoveSection = ({ titleFont }) => {
         <div className='my-16 md:flex justify-center items-center'>
             <div className='md:w-2/5 w-full h-full md:flex items-center md:pr-4'>
                 <div>
-                    <h2 className={`${titleFont.className} text-4xl`}>Restaurant</h2>
+                    <h2 className={`${titleFont.className} text-4xl`}>The Restaurant</h2>
                     <p className='my-4 mb-8'>The Restaurant and our Impeccable Wine Selection offers a touch of luxury and gourmet and a search for constant quality, while keeping the true essence of the traditional cuisine. Always prepared with fresh products of the land, the restaurant dishes are a real temptation.</p>
                     <Link href={'/'} className='primary_button'>Learn More</Link>
                 </div>

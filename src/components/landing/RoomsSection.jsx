@@ -11,14 +11,14 @@ import Rooms from './Rooms';
 const roomsData = [
     {
         id: 1,
-        name: 'Deluxe Suite',
-        amenities: ['Amenity 1', 'Amenity 2', 'Amenity 3'],
+        name: 'Deluxe Double Room with Balcony',
+        amenities: ['Flatscreen TV', 'Refrigerator', 'Air conditioning'],
         coverIMage: 'https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
-        description: 'We invite you to experience the genuine warmth and coziness of a home away from home. Our attentive staff, charming accommodations. Luxurious suite designed as an oasis in the heart of the city, offering a sanctuary from urban bustle.',
-        checkIn: '08:00 - 13:00',
+        description: 'Our Deluxe Double Room with Balcony offers a delightful retreat for those seeking a serene getaway. Step into a haven of tranquility as you enter this spacious room. The room features a comfortable double bed, adorned with soft linens and plush pillows, ensuring a restful nights sleep.',
+        checkIn: '14:00 - 18:00',
         people: '2 Adults',
         wifi: 'Available',
-        price: 'MK120,000'
+        price: '$45'
     },
     {
         id: 2,
