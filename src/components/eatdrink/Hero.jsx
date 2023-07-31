@@ -47,13 +47,13 @@ const Hero = ({ titleFont }) => {
             animate={controls}
             transition={{ duration: 0.6 }}
           >
-            The Menus from our Chef reveal comprehensive conjugations of flavours, together with the regional and local gastronomy, but also our selection of our wines gives the food its own identity. With a Deep Passion for introducing memborable tastes and unforgettable experiences with your loved ones or just a hell of a night with your day ones. You'll feel and be drawn back to The Shed.
+            The Menus from our Chef reveal comprehensive conjugations of flavours, together with the regional and local gastronomy, but also our selection of our wines gives the food its own identity.
           </motion.p>
         </div>
       </div>
       <div>
         <h2>
-        You have at your disposal a service made and served by a surprisingly young team. The signature cuisine of our Chef and his team is characterized by the beautifully balanced flavours and textures, the vibrant colours, and the use of fresh high-quality products that meet the wines produced in the region and across the oceans, culminating in a meal designed to surprise and satisfy the expectations of its guests.
+        With a Deep Passion for introducing memborable tastes and unforgettable experiences with your loved ones or just a hell of a night with your day ones. You'll feel and be drawn back to The Shed. You have at your disposal a service made and served by a surprisingly young team. The signature cuisine of our Chef and his team is characterized by the beautifully balanced flavours and textures, the vibrant colours, and the use of fresh high-quality products that meet the wines produced in the region and across the oceans, culminating in a meal designed to surprise and satisfy the expectations of its guests.
         </h2>
       </div>
       <div className="md:grid md:grid-cols-3 flex flex-col justify-around md:gap-4 gap-0 mt-20 h-full">
