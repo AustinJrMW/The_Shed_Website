@@ -40,7 +40,7 @@ const Hero = ({ titleFont }) => {
             animate={controls}
             transition={{ duration: 0.6 }}
           >
-            Make Reservations
+            The Restutrant
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: -50 }}
