@@ -51,9 +51,10 @@ const Hero = ({ titleFont }) => {
           </motion.p>
         </div>
       </div>
-      <div className="md:grid md:grid-cols-3 flex flex-col justify-around md:gap-4 gap-0 mt-20 h-full">
+      <div className="flex justify-center flex-col md:w-3/6 w-full mx-auto h-full">
+        <br></br>
         <h2>
-        With a Deep Passion for introducing memborable tastes and unforgettable experiences with your loved ones or just a hell of a night with your day ones. You'll feel and be drawn back to The Shed. You have at your disposal a service made and served by a surprisingly young team. The signature cuisine of our Chef and his team is characterized by the beautifully balanced flavours and textures, the vibrant colours, and the use of fresh high-quality products that meet the wines produced in the region and across the oceans, culminating in a meal designed to surprise and satisfy the expectations of its guests.
+        With a Deep Passion for introducing memborable tastes and unforgettable experiences with your loved ones or just a hell of a night with your day ones. You'll feel and be drawn back to The Shed.<br></br> You have at your disposal a service made and served by a surprisingly young team. The signature cuisine of our Chef and his team is characterized by the beautifully balanced flavours and textures, the vibrant colours, and the use of fresh high-quality products that meet the wines produced in the region and across the oceans, culminating in a meal designed to surprise and satisfy the expectations of its guests.
         </h2>
       </div>
       <div className="md:grid md:grid-cols-3 flex flex-col justify-around md:gap-4 gap-0 mt-20 h-full">
