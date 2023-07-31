@@ -16,7 +16,7 @@ const restImages = [
 
 ]
 
-const heroLanding = ({ titleFont }) => {
+const EatDrink = ({ titleFont }) => {
     return (
         <div className='my-16 md:flex justify-center items-center'>
             <div className='md:w-3/5 w-full md:h-full flex md:mt-0 mt-12 md:gap-0 gap-2'>
