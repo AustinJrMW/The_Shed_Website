@@ -1,5 +1,5 @@
 import Hero from '@/components/venue/Hero'
-import Venue from '@/components/venue/VenueSection'
+import VenueSection from '@/components/venue/VenueSection'
 import { Cinzel } from 'next/font/google';
 
 export const title = Cinzel({
