@@ -33,20 +33,17 @@ const Hero = ({ titleFont }) => {
           </motion.p>
         </div>
       </div>
-      <div className={styles.gallery}>
-        {heroImages.map((image, index) => (
-          <motion.div
-            key={image.id}
-            className={styles.heroImage}
-            style={{ backgroundImage: `url(${image.image})` }}
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{
-              opacity: 1,
-              scale: 1,
-              transition: { duration: 0.6, delay: index * 0.2 }
-            }}
-          ></motion.div>
-        ))}
+      <div className={`${styles.gallery} h-screen/2`}>
+        <motion.div
+          className={styles.heroImage}
+          style={{ backgroundImage: `url(${heroImage})` }}
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{
+            opacity: 1,
+            scale: 1,
+            transition: { duration: 0.6, delay: 0.2 }
+          }}
+        ></motion.div>
       </div>
     </div>
   );
