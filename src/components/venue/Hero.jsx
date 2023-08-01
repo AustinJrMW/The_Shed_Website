@@ -56,7 +56,7 @@ const Hero = ({ titleFont }) => {
                 </div>
             </div>
             <div className='md:w-3/5 w-full md:h-full flex md:mt-0 mt-12 md:gap-0 gap-2'>
-                {trioImages.map((image, index) => (
+                {venueImages.map((image, index) => (
                     <div className='w-full h-full' key={index}>
                         <img className='object-cover md:w-[240px] md:h-[500px] w-full h-[400px]' src={image.imageURL} alt="" />
                     </div>
