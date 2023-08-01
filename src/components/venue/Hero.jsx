@@ -29,7 +29,7 @@ const Hero = ({ titleFont }) => {
             animate={controls}
             transition={{ duration: 0.6 }}
           >
-            Welcome to The Shed Venue, an exquisite event space designed to host a wide range of gatherings and celebrations. Our spacious hall spans an impressive 9688 square feet, providing ample room for your special occasion.<br></br> <br></br> With its generous size, The Hall can comfortably accommodate up to 700 guests in a banquet-style setup, ensuring that you can invite all your loved ones to share in your memorable moments.
+            Welcome to The Shed Venue, an exquisite event space designed to host a wide range of gatherings and celebrations. Our spacious hall spans an impressive 9688 square feet, providing ample room for your special occasion.
           </motion.p>
         </div>
       </div>
