@@ -65,7 +65,6 @@ const Hero = ({ titleFont }) => {
     
   );
 
-  const VenueSection = ({ titleFont }) => {
     return (
         <div className='my-16 md:flex justify-center items-center'>
                         <div className='md:w-2/5 w-full h-full md:flex items-center md:pr-4'>
@@ -84,7 +83,7 @@ const Hero = ({ titleFont }) => {
             </div>
         </div>
     )
-}
+
 };
 
 export default Hero;
