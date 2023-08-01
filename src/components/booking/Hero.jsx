@@ -51,7 +51,7 @@ const Hero = ({ titleFont }) => {
           </motion.p>
         </div>
       </div>
-      <div className="md:grid md:grid-cols-3 flex flex-col justify-around md:gap-4 gap-0 mt-20 h-full">
+{/*       <div className="md:grid md:grid-cols-3 flex flex-col justify-around md:gap-4 gap-0 mt-20 h-full">
   {data.map((item, index) => (
     <div className={styles.tab} key={index}>
       <motion.div className={styles.tabImageWrapper}>
@@ -71,7 +71,7 @@ const Hero = ({ titleFont }) => {
       </motion.div>
     </div>
   ))}
-</div>
+</div> */}
 
       <div className={`${styles.gallery} h-screen/2`}>
         <motion.div

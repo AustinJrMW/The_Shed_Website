@@ -1,5 +1,4 @@
 import Hero from '@/components/venue/Hero'
-import Venue from '@/components/venue/Venue'
 import { Cinzel } from 'next/font/google';
 
 export const title = Cinzel({
@@ -8,7 +7,6 @@ export const title = Cinzel({
   weight: ['400'],
   style: ['normal']
 })
-
 
 export default function Venue() {
   return (
