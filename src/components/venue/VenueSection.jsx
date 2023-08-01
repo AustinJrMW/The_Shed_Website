@@ -1,6 +1,6 @@
 import React from 'react'
 
-const venueImages = [
+const trioImages = [
     {
         id: 1,
         imageURL: "https://images.unsplash.com/photo-1525476325627-1380280dcfab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1392&q=80"
@@ -20,7 +20,7 @@ const VenueSection = ({ titleFont }) => {
     return (
         <div className='my-16 md:flex justify-center items-center'>
                 <div className='md:w-3/5 w-full md:h-full flex md:mt-0 mt-12 md:gap-0 gap-2'>
-                {venueImages.map((image, index) => (
+                {trioImages.map((image, index) => (
                     <div className='w-full h-full' key={index}>
                         <img className='object-cover md:w-[240px] md:h-[500px] w-full h-[400px]' src={image.imageURL} alt="" />
                     </div>
