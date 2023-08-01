@@ -12,6 +12,7 @@ export default function Venue() {
   return (
     <main className='w-full'>
       <Hero titleFont={title}/>
+      <VenueSection titleFont={title}/>
     </main>
   )
 }
