@@ -50,18 +50,18 @@ const Hero = ({ titleFont }) => {
         </div>
       </div>
       <div className='md:w-2/5 w-full h-full md:flex items-center md:pr-4'>
-                {venueImages.map((image, index) => (
+                <div>
+                    <h2 className={`${titleFont.className} text-4xl`}>Venue</h2>
+                    <p className='my-4 mb-8'>As you step into The Hall, you'll be captivated by its elegant ambiance and versatile layout. Whether you're hosting a wedding reception, corporate event, gala dinner, or any other social gathering, the space can be customized to suit your unique requirements.</p>
+                </div>
+            </div>
+            <div className='md:w-3/5 w-full md:h-full flex md:mt-0 mt-12 md:gap-0 gap-2'>
+                {trioImages.map((image, index) => (
                     <div className='w-full h-full' key={index}>
                         <img className='object-cover md:w-[240px] md:h-[500px] w-full h-[400px]' src={image.imageURL} alt="" />
                     </div>
                 ))}
 
-            </div>
-            <div className='md:w-3/5 w-full md:h-full flex md:mt-0 mt-12 md:gap-0 gap-2'>
-                <div>
-                    <h2 className={`${titleFont.className} text-4xl`}>Venue</h2>
-                    <p className='my-4 mb-8'>As you step into The Hall, you'll be captivated by its elegant ambiance and versatile layout. Whether you're hosting a wedding reception, corporate event, gala dinner, or any other social gathering, the space can be customized to suit your unique requirements.</p>
-                </div>
             </div>
       <div className={`${styles.gallery} h-screen/2`}>
         <motion.div
