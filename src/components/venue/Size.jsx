@@ -4,7 +4,8 @@ import React from 'react';
 import { useState } from 'react';
 import client from '../../api/sanity'
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
-import { TbRulerMeasure, IoPeopleOutline, IoWifiOutline, IoWalletOutline } from 'react-icons/io5';
+import { IoPeopleOutline, IoWifiOutline, IoWalletOutline } from 'react-icons/io5';
+import { TbRulerMeasure  } from 'react-icons/tb';
 import Rooms from './Rooms';
 
 
@@ -119,5 +120,5 @@ const Size = ({ titleFont }) => {
 
 
   
-export default RoomsSection
+export default Size
 
