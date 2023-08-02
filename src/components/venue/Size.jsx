@@ -67,7 +67,7 @@ const Size = ({ titleFont }) => {
         <div className='my-12 w-full'>
             <div className=''>
                 <div className='md:w-2/5 w-full text-center mx-auto flex flex-col items-center my-4'>
-                    <h2 className={`${titleFont.className} md:text-4xl text-3xl mb-4`}>Whether you're planning an intimate gathering or a grand celebration, Come and create cherished memories with us at The Shed Venue.</h2>
+                    <h2 className={`${titleFont.className} md:text-5xl text-3xl text-center mb-8`}>Whether you're planning an intimate gathering or a grand celebration, Come and create cherished memories with us at The Shed Venue.</h2>
                     <p>Our dedicated team at The Shed Venue is committed to ensuring your event runs seamlessly. We offer state-of-the-art audiovisual equipment, professional event planning assistance, and top-notch catering services provided by our restaurant, all aimed at making your experience truly memorable.</p>
                     <div className='h-[75px] w-[2px] bg-[#E0956D] my-4'></div>
                 </div>
