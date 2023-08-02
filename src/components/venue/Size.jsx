@@ -4,7 +4,7 @@ import React from 'react';
 import { useState } from 'react';
 import client from '../../api/sanity'
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
-import { TbRulerMeasure, IoPeopleOutline, IoWifiOutline, IoWalletOutline } from 'react-icons';
+import { TbRulerMeasure, IoPeopleOutline, IoWifiOutline, IoWalletOutline } from 'react-icons/io5';
 import Rooms from './Rooms';
 
 
