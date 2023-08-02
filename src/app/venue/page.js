@@ -1,5 +1,6 @@
 import Hero from '@/components/venue/Hero'
 import VenueSection from '@/components/venue/VenueSection'
+import Size from '@/components/venue/Size'
 import { Cinzel } from 'next/font/google';
 
 export const title = Cinzel({
@@ -14,6 +15,7 @@ export default function Venue() {
     <main className='w-full'>
       <Hero titleFont={title}/>
       <VenueSection titleFont={title}/>
+      <Size titleFont={title}/>
     </main>
   )
 }
