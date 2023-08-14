@@ -37,8 +37,8 @@ const Footer = ({ titleFont }) => {
         <div className='space-y-4'>
           <span className='font-bold'>Email</span>
           <ul>
-            <li>bookings@theshed.com</li>
-            <li>marketing@theshed.com</li>
+            <li>bookings@theshedhotels.com</li>
+            <li>kelvin@theshedhotels.com</li>
           </ul>
         </div>
       </div>
