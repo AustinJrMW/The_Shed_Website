@@ -8,7 +8,9 @@ const ContactForm = ({titleFont}) => {
             <h3 className={`${titleFont.className} text-3xl text-center`}>Explore a world of wonder, leisure and pleasure</h3>
           <p>The Shed is located in the Heart of Lilongwe. Nearby is the Plaza de Colón and the well-known Retiro Park, and a few minutes away is the Paseo de la Castellana and the Santiago Bernabéu Stadium. Surrounded by famous boutiques and trendy restaurants, Tótem Madrid is on a quiet street between the city's two most luxurious shopping arteries: Calle Goya and Calle Serrano.</p><br/>
         </div>
-          <button className='blur-button' onclick="window.location.href = 'https://goo.gl/maps/tGrny2xfVMhLv8z78';">Open Google Map Link</button>
+        <a href='https://goo.gl/maps/tGrny2xfVMhLv8z78'>
+          <button className='blur-button'>Open Google Map Link</button>
+          </a>
         </div>
     </div>
   )
