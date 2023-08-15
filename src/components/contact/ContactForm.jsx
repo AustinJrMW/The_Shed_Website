@@ -9,7 +9,7 @@ const ContactForm = ({titleFont}) => {
           <p>The Shed is located in the Heart of Lilongwe. Nearby is the Plaza de Colón and the well-known Retiro Park, and a few minutes away is the Paseo de la Castellana and the Santiago Bernabéu Stadium. Surrounded by famous boutiques and trendy restaurants, Tótem Madrid is on a quiet street between the city's two most luxurious shopping arteries: Calle Goya and Calle Serrano.</p><br/>
         </div>
         <a href='https://goo.gl/maps/tGrny2xfVMhLv8z78'>
-          <button className='blur-button'>Open Google Map Link</button>
+          <button className='button'>Open Google Map Link</button>
           </a>
         </div>
     </div>
