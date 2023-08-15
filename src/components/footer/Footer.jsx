@@ -30,8 +30,8 @@ const Footer = ({ titleFont }) => {
         <div className='space-y-4'>
           <span className='font-bold'>Visit Us</span>
           <ul>
-            <li>P.O.Box 3179, Lilongwe, Malawi</li>
-            <li>14KM from Gateway Mall</li>
+            <li>Mchinji Road, Chitedze</li>
+            <li>14KM from Gateway Mall.</li>
           </ul>
         </div>
         <div className='space-y-4'>
