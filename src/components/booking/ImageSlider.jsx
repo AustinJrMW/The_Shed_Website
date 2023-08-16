@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react';
-import { motion, useAnimation } from 'framer-motion';
 import gsap from 'gsap';
 import styles from './imageSlider.module.css'
 
@@ -37,7 +36,7 @@ const imageCarousel = [
   },
 ]
 
-const ImageSlider = (titleFont) => {
+const ImageSlider = () => {
   const wrapperRef = useRef(null);
   const imagesRef = useRef(null);
 
@@ -74,39 +73,13 @@ const ImageSlider = (titleFont) => {
     };
   }, []);
 
-
-
-
   return (
-    <div className="h-full w-full my-20">
-      <div className="mt-8 md:flex md:align-top gap-4 md:text-left text-center">
-        <div className="md:w-1/2 w-full">
-          <motion.h2
-            className={`${titleFont.className} md:text-4xl text-3xl md:w-8/12 md:my-0 my-8`}
-            initial={{ opacity: 0, y: 50 }}
-            animate={controls}
-            transition={{ duration: 0.6 }}
-          >
-            Our Deluxe Double Room with Balcony
-          </motion.h2>
-        </div>
-        <div className="md:w-1/2">
-          <motion.p
-            initial={{ opacity: 0, y: -50 }}
-            animate={controls}
-            transition={{ duration: 0.9 }}
-          >
-            A delightful retreat for those seeking a serene getaway. Step into a haven of tranquility as you enter this spacious room. The rustic decor, inspired by nature, creates a cozy atmosphere that instantly puts you at ease. The room features a comfortable double bed, adorned with soft linens and plush pillows, ensuring a restful night's sleep.
-          </motion.p>
-        </div>
-      </div>
-    <div className={`${styles.wrapper} m-[1em calc(50% - 50vw);]`} ref={wrapperRef}>
+    
       <div className={`${styles.images}`} ref={imagesRef}>
         {imageCarousel.map( image => (
           <img key={image.id} className={`${styles.image}`} src={image.url} alt="Image 1" />
         ))}
       </div>
-    </div>
     </div>
   );
 };
