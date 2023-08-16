@@ -59,6 +59,30 @@ const sizeData = [
         price: 'With Dance Floor'
 
     },
+    {
+        id: 5,
+        name: 'Classroom Style',
+        amenities: ['Amenity 8', 'Amenity 9'],
+        coverIMage: 'https://www.royalcaribbeanincentives.com/content/uploads/RCI_Enchant_ConferenceRoom-sized-1240x660.jpg',
+        description: 'Classroom. Tables and chairs are arranged in parallel rows facing the front of the room. Classroom style, as its name suggests, is best for activities requiring a learning component such as trainings, tests and workshops.',
+        checkIn: '9688 sqft',
+        people: '569 - 692',
+        wifi: '18in wide desks - 692',
+        price: '30" wide desks - 569'
+
+    },
+    {
+        id: 6,
+        name: 'Trade Style',
+        amenities: ['Amenity 8', 'Amenity 9'],
+        coverIMage: 'https://pas-wordpress-media.s3.amazonaws.com/content/uploads/2017/05/14-Tips-for-Your-First-Trade-Show.png',
+        description: 'A trade style event is where companies in a particular industry gather to showcase their products and services. Companies typically set up booths and displays to showcase their products and services, and visitors to the trade show attend to learn more about the companies and their offerings.',
+        checkIn: '9688 sqft',
+        people: '48 - 60 Booths',
+        wifi: '8in by 10in - 60',
+        price: '10in by 10in - 48'
+
+    },
 ];
 
 const Size = ({ titleFont }) => {
