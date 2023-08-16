@@ -6,6 +6,8 @@ import client from '../../api/sanity'
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
 import { IoPeopleOutline, IoWifiOutline, IoWalletOutline } from 'react-icons/io5';
 import { TbRulerMeasure  } from 'react-icons/tb';
+import { MdTableBar } from "react-icons/md";
+import { MdTableRestaurant } from "react-icons/md";
 import Rooms from './Rooms';
 
 
@@ -14,12 +16,12 @@ const sizeData = [
         id: 1,
         name: 'Banquet Style',
         amenities: ['Flatscreen TV', 'Refrigerator', 'Air conditioning'],
-        coverIMage: 'https://cdn.hotelplanner.com/Common/Images/SpaceTypes/Calculator/Banquet.gif',
-        description: 'Our Deluxe Double Room with Balcony offers a delightful retreat for those seeking a serene getaway. Step into a haven of tranquility as you enter this spacious room. The room features a comfortable double bed, adorned with soft linens and plush pillows, ensuring a restful nights sleep.',
-        checkIn: '90 sqm',
-        people: '9688 sqft',
-        wifi: 'Available',
-        price: '$45'
+        coverIMage: 'https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/b/1239/files/2019/08/Theatre-with-rounds.jpg',
+        description: 'Banquet style is the most common setup for events serving meals, using 60″ round tables with up to 10 chairs around each table.',
+        checkIn: '9688 sqft',
+        people: '700 - 800',
+        wifi: '60in wide round tables - 807 max',
+        price: '72in wide round tables - 745 max'
     },
     {
         id: 2,
@@ -101,8 +103,8 @@ const Size = ({ titleFont }) => {
                                         <ul className='flex gap-8 flex-col'>
                                             <li className='flex gap-4 items-center'><TbRulerMeasure className='text-[#E0956D]' size={30} />{sizeData[selectedRoomIndex].checkIn}</li>
                                             <li className='flex gap-4 items-center'><IoPeopleOutline className='text-[#E0956D]' size={30} />{sizeData[selectedRoomIndex].people}</li>
-                                            <li className='flex gap-4 items-center'><IoWifiOutline className='text-[#E0956D]' size={30} />{sizeData[selectedRoomIndex].wifi}</li>
-                                            <li className='flex gap-4 items-center'><IoWalletOutline className='text-[#E0956D]' size={30} />{sizeData[selectedRoomIndex].price}</li>
+                                            <li className='flex gap-4 items-center'><MdTableBar className='text-[#E0956D]' size={30} />{sizeData[selectedRoomIndex].wifi}</li>
+                                            <li className='flex gap-4 items-center'><MdTableRestaurant className='text-[#E0956D]' size={30} />{sizeData[selectedRoomIndex].price}</li>
                                         </ul>
                                         
 
