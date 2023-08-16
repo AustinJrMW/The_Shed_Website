@@ -25,14 +25,14 @@ const sizeData = [
     },
     {
         id: 2,
-        name: 'Executive Room',
+        name: 'Conference Style',
         amenities: ['Amenity 4', 'Amenity 5'],
-        coverIMage: 'https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
-        description: 'We invite you to experience the genuine warmth and coziness of a home away from home. Our attentive staff, charming accommodation. Spacious and elegantly designed suite with luxurious amenities and extra comfort.',
-        checkIn: '08:00 - 13:00',
-        people: '2 Adults & 2 children',
-        wifi: 'Available',
-        price: 'MK180,000'
+        coverIMage: 'https://image-tc.galaxy.tf/wijpeg-ag3czgm99myvplqtiz0uc54fg/salons-n-o-3.jpg?width=1920',
+        description: 'For larger groups, conference room style consists of 6-foot tables arranged in a square with chairs around the outside. For groups of 25 or more people consider using 5,6,7,8 sided hollow set for better sight lines. This setup facilitates discussion and is ideal for group meetings and discussion sessions.',
+        checkIn: '9688 sqft',
+        people: '276 - 322',
+        wifi: 'Standard 6ft Table - 80 each side',
+        price: 'U shaped 8ft table setup - 92 each side'
 
     },
     {
