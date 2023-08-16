@@ -38,8 +38,8 @@ const sizeData = [
     {
         id: 3,
         name: 'Theater (Lecture) Style',
-        amenities: ['Amenity 4', 'Amenity 5'],
-        coverIMage: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fforum-theatre.com%2Fthe-style-of-theatre%2F&psig=AOvVaw031-VvzpGde1j_AwSa9q5Y&ust=1692265523227000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPi2kL_y4IADFQAAAAAdAAAAABAq',
+        amenities: ['Amenity 6', 'Amenity 7'],
+        coverIMage: 'https://cdn.forum-theatre.com/1663645348015.jpg',
         description: 'Theater style is ideal for lectures, presentations, and group meetings of any size. It consists of chairs in rows facing a panel table or podium at the front of the room.',
         checkIn: '9688 sqft',
         people: '1211 - 1614',
@@ -50,8 +50,8 @@ const sizeData = [
     {
         id: 4,
         name: 'Reception Style',
-        amenities: ['Amenity 4', 'Amenity 5'],
-        coverIMage: 'https://cdn.forum-theatre.com/1663645348015.jpg',
+        amenities: ['Amenity 8', 'Amenity 9'],
+        coverIMage: 'https://i.pinimg.com/736x/11/ae/49/11ae49ffccf4e6d32fb78b6ff2df0af8--reception-table-reception-ideas.jpg',
         description: 'Stand-up receptions are the ideal, flexible setup to allow participants in your event to socialize. This setup uses high-boy tables scattered throughout the room.',
         checkIn: '9688 sqft',
         people: '1076',
