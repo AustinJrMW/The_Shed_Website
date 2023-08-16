@@ -22,26 +22,14 @@ const roomsData = [
     },
     {
         id: 2,
-        name: 'Executive Room',
-        amenities: ['Amenity 4', 'Amenity 5'],
+        name: 'Indoor Ground Level Rooms',
+        amenities: ['Flatscreen TV', 'Refrigerator', 'Air conditioning'],
         coverIMage: 'https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
         description: 'We invite you to experience the genuine warmth and coziness of a home away from home. Our attentive staff, charming accommodation. Spacious and elegantly designed suite with luxurious amenities and extra comfort.',
-        checkIn: '08:00 - 13:00',
-        people: '2 Adults & 2 children',
-        wifi: 'Available',
-        price: 'MK180,000'
-
-    },
-    {
-        id: 3,
-        name: 'Garden View Room',
-        amenities: ['Amenity 4', 'Amenity 5'],
-        coverIMage: 'https://images.unsplash.com/photo-1560185128-e173042f79dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=600&q=60',
-        description: 'We invite you to experience the genuine warmth and coziness of a home away from home. Our attentive staff, charming accommodations.  Stylish room tailored for business travelers, offering a productive workspace and modern amenities.',
-        checkIn: '08:00 - 13:00',
+        checkIn: '14:00 - 18:00',
         people: '2 Adults',
         wifi: 'Available',
-        price: 'MK100,000'
+        price: '$40'
 
     },
     // Add more rooms as needed

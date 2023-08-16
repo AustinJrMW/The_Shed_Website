@@ -23,7 +23,7 @@ const VenueSection = ({ titleFont }) => {
                 <div>
                     <h2 className={`${titleFont.className} text-4xl`}>Venue</h2>
                     <p className='my-4 mb-8'>As you step into The Hall, you'll be captivated by its elegant ambiance and versatile layout. Whether you're hosting a wedding reception, corporate event, gala dinner, or any other social gathering, the space can be customized to suit your unique requirements.</p>
-                    <br></br><p>Come and create cherished memories with us at The Shed Venue.</p>
+                    <br></br><p><b>Come and create cherished memories with us at The Shed Venue.</b></p>
                 </div>
             </div>
             <div className='md:w-3/5 w-full md:h-full flex md:mt-0 mt-12 md:gap-0 gap-2'>

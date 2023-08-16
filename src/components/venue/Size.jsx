@@ -79,8 +79,8 @@ const sizeData = [
         description: 'A trade style event is where companies in a particular industry gather to showcase their products and services. Companies typically set up booths and displays to showcase their products and services, and visitors to the trade show attend to learn more about the companies and their offerings.',
         checkIn: '9688 sqft',
         people: '48 - 60 Booths',
-        wifi: '8in by 10in - 60',
-        price: '10in by 10in - 48'
+        wifi: '8in by 10in Booth - 60',
+        price: '10in by 10in Booth - 48'
 
     },
 ];
