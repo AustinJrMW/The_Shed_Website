@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react';
+import { motion, useAnimation } from 'framer-motion';
 import gsap from 'gsap';
 import styles from './imageSlider.module.css'
 
