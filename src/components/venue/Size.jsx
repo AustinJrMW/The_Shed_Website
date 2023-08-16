@@ -30,24 +30,35 @@ const sizeData = [
         coverIMage: 'https://image-tc.galaxy.tf/wijpeg-ag3czgm99myvplqtiz0uc54fg/salons-n-o-3.jpg?width=1920',
         description: 'For larger groups, conference room style consists of 6-foot tables arranged in a square with chairs around the outside. For groups of 25 or more people consider using 5,6,7,8 sided hollow set for better sight lines. This setup facilitates discussion and is ideal for group meetings and discussion sessions.',
         checkIn: '9688 sqft',
-        people: '276 - 322',
-        wifi: 'Standard 6ft Table - 80 each side',
-        price: 'U shaped 8ft table setup - 92 each side'
+        people: '272 - 322',
+        wifi: 'Standard 6ft Table - 80 each side (4 side max)',
+        price: 'U shaped 8ft table setup - 92 each side (3 side max)'
 
     },
     {
         id: 3,
-        name: 'Garden View Room',
+        name: 'Theater (Lecture) Style',
         amenities: ['Amenity 4', 'Amenity 5'],
-        coverIMage: 'https://images.unsplash.com/photo-1560185128-e173042f79dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=600&q=60',
-        description: 'We invite you to experience the genuine warmth and coziness of a home away from home. Our attentive staff, charming accommodations.  Stylish room tailored for business travelers, offering a productive workspace and modern amenities.',
-        checkIn: '08:00 - 13:00',
-        people: '2 Adults',
-        wifi: 'Available',
-        price: 'MK100,000'
+        coverIMage: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fforum-theatre.com%2Fthe-style-of-theatre%2F&psig=AOvVaw031-VvzpGde1j_AwSa9q5Y&ust=1692265523227000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPi2kL_y4IADFQAAAAAdAAAAABAq',
+        description: 'Theater style is ideal for lectures, presentations, and group meetings of any size. It consists of chairs in rows facing a panel table or podium at the front of the room.',
+        checkIn: '9688 sqft',
+        people: '1211 - 1614',
+        wifi: 'Spacious Rows of Chairs - 1211',
+        price: 'Maximum Rows of Chairs - 1614'
 
     },
-    // Add more rooms as needed
+    {
+        id: 4,
+        name: 'Reception Style',
+        amenities: ['Amenity 4', 'Amenity 5'],
+        coverIMage: 'https://cdn.forum-theatre.com/1663645348015.jpg',
+        description: 'Stand-up receptions are the ideal, flexible setup to allow participants in your event to socialize. This setup uses high-boy tables scattered throughout the room.',
+        checkIn: '9688 sqft',
+        people: '1076',
+        wifi: 'With high-boy or poseur tables',
+        price: 'With Dance Floor'
+
+    },
 ];
 
 const Size = ({ titleFont }) => {
