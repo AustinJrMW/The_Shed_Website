@@ -17,7 +17,7 @@ const sizeData = [
         name: 'Banquet Style',
         amenities: ['Flatscreen TV', 'Refrigerator', 'Air conditioning'],
         coverIMage: 'https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/b/1239/files/2019/08/Theatre-with-rounds.jpg',
-        description: 'Banquet style is the most common setup for events serving meals, using 60″ round tables with up to 10 chairs around each table.',
+        description: 'Banquet style is the most common setup for events serving meals, using 60in or 72in round tables with up to 10 or 12 respectively chairs around each table.',
         checkIn: '9688 sqft',
         people: '700 - 800',
         wifi: '60in wide round tables - 807 max',
