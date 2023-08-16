@@ -74,7 +74,7 @@ const ImageSlider = () => {
   }, []);
 
   return (
-    
+    <div className={`${styles.wrapper} m-[1em calc(50% - 50vw);]`} ref={wrapperRef}>
       <div className={`${styles.images}`} ref={imagesRef}>
         {imageCarousel.map( image => (
           <img key={image.id} className={`${styles.image}`} src={image.url} alt="Image 1" />
