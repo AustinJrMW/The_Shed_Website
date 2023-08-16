@@ -37,7 +37,7 @@ const imageCarousel = [
   },
 ]
 
-const ImageSlider = () => {
+const ImageSlider = (titleFont) => {
   const wrapperRef = useRef(null);
   const imagesRef = useRef(null);
 
