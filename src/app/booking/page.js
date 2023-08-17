@@ -1,7 +1,7 @@
 import Hero from '@/components/booking/Hero'
-import ImageSlider from '@/components/booking/ImageSlider'
 import RoomTitle from '@/components/booking/RoomTitle'
 import Icongrid from '@/components/booking/Icongrid'
+import Descriptive from '@/components/booking/Descriptive'
 import { Cinzel } from 'next/font/google';
 
 export const title = Cinzel({
