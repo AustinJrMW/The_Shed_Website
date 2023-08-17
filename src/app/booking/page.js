@@ -18,6 +18,7 @@ export default function Booking() {
       <Hero titleFont={title}/>
       <RoomTitle titleFont={title}/>
       <Icongrid titleFont={title}/>
+      <Descriptive titleFont={title}/>
     </main>
   )
 }
