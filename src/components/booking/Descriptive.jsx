@@ -1,7 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react';
 import { motion, useAnimation } from 'framer-motion';
-import { IoTimeOutline} from 'react-icons/io5';
 
 
 const features = [
