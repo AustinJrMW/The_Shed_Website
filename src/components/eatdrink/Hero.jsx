@@ -9,17 +9,20 @@ const data = [
     {
       title: 'Quiant Inlet',
       description: 'The Shed Restaurant is divided into restaurant and a wine bar, a dining room for up 80 people. The Restaurant and our impeccable Wine selection offers a touch of luxury and gourmet and a search for constant quality, while keeping the true essence of the traditional cuisine. Always prepared with fresh products of the land, the restaurant dishes are a real temptation.',
-      image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'
+      image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+      seating: 'Seats 450 People'
     },
     {
       title: 'Wine Bar',
       description: 'The Restaurant and our Impeccable Wine Selection offers a touch of luxury and gourmet and a search for constant quality, while keeping the true essence of the traditional cuisine. Delicious gourmet dishes of the restaurant are perfectly harmonized with the award-winning wines from all over the world making the meals a unique experience.',
-      image: 'https://images.unsplash.com/photo-1623157874827-7a5786ef51e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'
+      image: 'https://images.unsplash.com/photo-1623157874827-7a5786ef51e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+      seating: 'Seats 28 People'
     },
     {
       title: 'Sunny Veranda',
       description: 'The Outdoor Area overlooks a small interpretation centre of the grass yard and a small garden with a granite fountain. A Porch area that can accomdate 60 people seating; and an outdoor space, ornamented with the typical vegetation, surrounded by the garden and olive groves that wrap the property, where is also possible to hold events.',
-      image: 'https://images.unsplash.com/photo-1528735000313-039ec3a473b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80'
+      image: 'https://images.unsplash.com/photo-1528735000313-039ec3a473b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80',
+      seating: 'Seats 450 People'
     }
   ];
   
@@ -71,7 +74,7 @@ const Hero = ({ titleFont }) => {
           <h3 className={`${styles.tabTitle} ${titleFont.className}`}>{item.title}</h3>
           <motion.div className={`${styles.tabDescription} flex flex-col`}>
             <p>{item.description}</p>
-            <motion.button className={styles.tabButton}>Seating Styles</motion.button>
+            <motion.button className={styles.tabButton}>{item.seating}</motion.button>
           </motion.div>
         </motion.div>
       </motion.div>
