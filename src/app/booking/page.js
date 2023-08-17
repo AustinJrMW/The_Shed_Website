@@ -1,6 +1,7 @@
 import Hero from '@/components/booking/Hero'
 import ImageSlider from '@/components/booking/ImageSlider'
 import RoomTitle from '@/components/booking/RoomTitle'
+import Amentites from '@/components/booking/Amentites'
 import { Cinzel } from 'next/font/google';
 
 export const title = Cinzel({
@@ -17,6 +18,7 @@ export default function Booking() {
       <Hero titleFont={title}/>
       <RoomTitle titleFont={title}/>
       <ImageSlider titleFont={title}/>
+      <Amentites titleFont={title}/>
     </main>
   )
 }

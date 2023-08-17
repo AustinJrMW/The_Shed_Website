@@ -77,8 +77,6 @@ const closeModal = () => {
     </div>
   ))}
 </div>
-
-
       <div className={`${styles.gallery} h-screen/2`}>
         <motion.div
           className={styles.heroImage}
