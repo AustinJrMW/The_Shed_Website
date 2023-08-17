@@ -17,7 +17,6 @@ export default function Booking() {
     <main className='w-full'>
       <Hero titleFont={title}/>
       <RoomTitle titleFont={title}/>
-      <ImageSlider titleFont={title}/>
       <Icongrid titleFont={title}/>
     </main>
   )
