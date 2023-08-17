@@ -51,7 +51,7 @@ const RoomTitle = ({ titleFont }) => {
             animate={controls}
             transition={{ duration: 0.9 }}
           >
-            A delightful retreat for those seeking a serene getaway.Step into a haven of tranquility as you enter this spacious room. The rustic decor, inspired by nature, creates a cozy atmosphere that instantly puts you at ease. The room features a comfortable double bed, adorned with soft linens and plush pillows, ensuring a restful night's sleep.
+            Step into a haven of tranquility as you enter this spacious room. The rustic decor, inspired by nature, creates a cozy atmosphere that instantly puts you at ease. The room features a comfortable double bed, adorned with soft linens and plush pillows, ensuring a restful night's sleep.
           </motion.p>
         </div>
       </div>

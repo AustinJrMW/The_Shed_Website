@@ -80,6 +80,19 @@ const ImageSlider = () => {
           <img key={image.id} className={`${styles.image}`} src={image.url} alt="Image 1" />
         ))}
       </div>
+      <div class="container">
+        <div class="row">
+              <div class="col-sm">
+              One of three columns
+              </div>
+          <div class="col-sm">
+              One of three columns
+          </div>
+          <div class="col-sm">
+              One of three columns
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
