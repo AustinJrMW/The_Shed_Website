@@ -21,6 +21,19 @@ const RoomTitle = ({ titleFont }) => {
 
   return (
     <div className="h-full w-full my-20">
+      <div
+        className={`${styles.image_wrapper} w-full md:h-[498px] h-[398px]`}
+        ref={ref}
+      >
+        <motion.div
+          className={styles.image}
+          animate={controls}
+          transition={{ duration: 0.6 }}
+          style={{
+            backgroundImage: `url('https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80')`,
+          }}
+        />
+      </div>
       <div className="mt-8 md:flex md:align-top gap-4 md:text-left text-center">
         <div className="md:w-1/2 w-full">
           <motion.h2
