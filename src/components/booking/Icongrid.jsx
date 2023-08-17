@@ -20,11 +20,11 @@ const Icongrid = ({ titleFont }) => {
           Room Amenities
           </h2>
           <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-          <TbAirConditioning className='text-[#E0956D]' size={30}/>
+          <TbAirConditioning className='text-[#E0956D]' size={100}/>
             <div class="flex min-w-0 gap-x-4">
               <div class="min-w-0 flex-auto">
-                <p class="text-sm font-semibold leading-6 text-gray-900">Airconditioning</p>
-                <p class="mt-1 truncate text-xs leading-5 text-gray-500">Runs from 12pm to 7am </p>
+                <p class="text-m font-semibold leading-6 text-white-900">Airconditioning</p>
+                <p class="mt-1 truncate text-sm leading-5 text-white-500">Runs from 12pm to 7am </p>
               </div>
             </div>
           
