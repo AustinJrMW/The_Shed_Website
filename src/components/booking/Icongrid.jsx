@@ -23,8 +23,8 @@ const Icongrid = ({ titleFont }) => {
           <TbAirConditioning className='text-[#E0956D]' size={60}/>
             <div class="flex gap-x-4">
               <div class="flex-auto">
-                <p class="text-m font-semibold leading-6 text-white-900">Airconditioning</p>
-                <p class="mt-1 truncate text-sm leading-5 text-white-500">Runs from 12pm to 7am </p>
+                <p class="text-m font-semibold leading-1 text-white-900">Airconditioning</p>
+                <p class="mt-1 truncate text-sm leading-1 text-white-500">Runs from 12pm to 7am </p>
               </div>
             </div>
           
