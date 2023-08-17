@@ -32,7 +32,7 @@ const imageCarousel = [
   },
   {
     id: 7,
-    url: "https://images.unsplash.com/photo-1527986654082-0b5b3fef2632?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+    url: "https://images.unsplash.com/photo-1576354302919-96748cb8299e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1529&q=80"
   },
 ]
 
@@ -59,7 +59,7 @@ const ImageSlider = () => {
     });
 
     gsap.to(images, {
-      duration: 15,
+      duration: 20,
       x: `-=${slideWidth}px`,
       ease: 'none',
       modifiers: {
