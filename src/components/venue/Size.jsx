@@ -18,10 +18,10 @@ const sizeData = [
         amenities: ['Flatscreen TV', 'Refrigerator', 'Air conditioning'],
         coverIMage: 'https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/b/1239/files/2019/08/Theatre-with-rounds.jpg',
         description: 'Banquet style is the most common setup for events serving meals, using 60in or 72in round tables with up to 10 or 12 respectively chairs around each table.',
-        checkIn: '9688 sqft',
-        people: '700 - 800',
-        wifi: '60in wide round tables - 807 max',
-        price: '72in wide round tables - 745 max'
+        checkIn: '12916 sqft',
+        people: '993 - 1070',
+        wifi: '60in wide round tables - 1070 max',
+        price: '72in wide round tables -993 max'
     },
     {
         id: 2,
@@ -29,10 +29,10 @@ const sizeData = [
         amenities: ['Amenity 4', 'Amenity 5'],
         coverIMage: 'https://image-tc.galaxy.tf/wijpeg-ag3czgm99myvplqtiz0uc54fg/salons-n-o-3.jpg?width=1920',
         description: 'For larger groups, conference room style consists of 6-foot tables arranged in a square with chairs around the outside. For groups of 25 or more people consider using 5,6,7,8 sided hollow set for better sight lines. This setup facilitates discussion and is ideal for group meetings and discussion sessions.',
-        checkIn: '9688 sqft',
-        people: '272 - 322',
-        wifi: 'Standard 6ft Table - 80 each side (4 side max)',
-        price: 'U shaped 8ft table setup - 92 each side (3 side max)'
+        checkIn: '12916 sqft',
+        people: '369 - 430',
+        wifi: 'Standard 6ft Table - 107 each side (4 side max)',
+        price: 'U shaped 8ft table setup - 123 each side (3 side max)'
 
     },
     {
@@ -41,10 +41,10 @@ const sizeData = [
         amenities: ['Amenity 6', 'Amenity 7'],
         coverIMage: 'https://cdn.forum-theatre.com/1663645348015.jpg',
         description: 'Theater style is ideal for lectures, presentations, and group meetings of any size. It consists of chairs in rows facing a panel table or podium at the front of the room.',
-        checkIn: '9688 sqft',
-        people: '1211 - 1614',
-        wifi: 'Spacious Rows of Chairs - 1211',
-        price: 'Maximum Rows of Chairs - 1614'
+        checkIn: '12916 sqft',
+        people: '1614 - 2152',
+        wifi: 'Spacious Rows of Chairs - 1614',
+        price: 'Maximum Rows of Chairs - 2152'
 
     },
     {
@@ -53,8 +53,8 @@ const sizeData = [
         amenities: ['Amenity 8', 'Amenity 9'],
         coverIMage: 'https://i.pinimg.com/736x/11/ae/49/11ae49ffccf4e6d32fb78b6ff2df0af8--reception-table-reception-ideas.jpg',
         description: 'Stand-up receptions are the ideal, flexible setup to allow participants in your event to socialize. This setup uses high-boy tables scattered throughout the room.',
-        checkIn: '9688 sqft',
-        people: '1076',
+        checkIn: '12916 sqft',
+        people: '1435',
         wifi: 'With high-boy or poseur tables',
         price: 'With Dance Floor'
 
@@ -65,10 +65,10 @@ const sizeData = [
         amenities: ['Amenity 8', 'Amenity 9'],
         coverIMage: 'https://www.royalcaribbeanincentives.com/content/uploads/RCI_Enchant_ConferenceRoom-sized-1240x660.jpg',
         description: 'Classroom. Tables and chairs are arranged in parallel rows facing the front of the room. Classroom style, as its name suggests, is best for activities requiring a learning component such as trainings, tests and workshops.',
-        checkIn: '9688 sqft',
-        people: '569 - 692',
-        wifi: '18in wide desks - 692',
-        price: '30" wide desks - 569'
+        checkIn: '12916 sqft',
+        people: '759 - 922',
+        wifi: '18in wide desks - 922',
+        price: '30in wide desks - 759'
 
     },
     {
@@ -77,10 +77,10 @@ const sizeData = [
         amenities: ['Amenity 8', 'Amenity 9'],
         coverIMage: 'https://pas-wordpress-media.s3.amazonaws.com/content/uploads/2017/05/14-Tips-for-Your-First-Trade-Show.png',
         description: 'A trade style event is where companies in a particular industry gather to showcase their products and services. Companies typically set up booths and displays to showcase their products and services, and visitors to the trade show attend to learn more about the companies and their offerings.',
-        checkIn: '9688 sqft',
+        checkIn: '12916 sqft',
         people: '48 - 60 Booths',
-        wifi: '8in by 10in Booth - 60',
-        price: '10in by 10in Booth - 48'
+        wifi: '8in by 10in Booth - 80',
+        price: '10in by 10in Booth - 64'
 
     },
 ];
