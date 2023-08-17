@@ -22,9 +22,9 @@ const Icongrid = ({ titleFont }) => {
           <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
           <TbAirConditioning className='text-[#E0956D]' size={30} /><span>Aircon</span>
           <CgScreen className='text-[#E0956D]' size={30} /><span>Flatscreen</span>
-          <IoTimeOutline className='text-[#E0956D]' size={30} />
-          <IoTimeOutline className='text-[#E0956D]' size={30} />
-          <IoTimeOutline className='text-[#E0956D]' size={30} />
+          <TbAirConditioning className='text-[#E0956D]' size={30} />
+          <CgScreen className='text-[#E0956D]' size={30} />
+          <TbAirConditioning className='text-[#E0956D]' size={30} />
           </div>
         </div>
       </div>
