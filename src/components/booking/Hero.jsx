@@ -50,7 +50,7 @@ const Hero = ({ titleFont }) => {
             Escape to a world of refined relaxation and stylish seclusion at The Shed Boutique Hotel. Tucked away from the noise of the outside Lilongwe, Malawi, our exclusive retreat offers a sanctuary where you can unwind, rejuvenate, and reconnect with your inner peace.
           </motion.p>
           <a href='https://b12f7607df90c4e1.sirvoy.me/?rooms=%7B%2213124727%22%3A%5B%5B%5D%5D%7D'>
-          <button className='blur-button'>Open Google Map Link</button>
+          <button className='blur-button'>Book Now</button>
           </a>
         </div>
       </div>
